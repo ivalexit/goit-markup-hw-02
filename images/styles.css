@@ -40,11 +40,11 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 
-.addr {
+.address {
     font-style: normal;
 }
 
-.addr-link {
+.address-link {
 color: #434455;
 font-size: 16px;
 font-weight: 400;
@@ -52,12 +52,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.addr-link:hover,
-.addr-link:focus {
+.address-link:hover,
+.address-link:focus {
 color: #404BBF;
 }
 
-/* Solutions*/
+/* hero */
 .solutions {
 background-color: var(--NAVY-BLUE, #2E2F42);
 }
