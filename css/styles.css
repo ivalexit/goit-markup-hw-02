@@ -10,8 +10,8 @@ a {
 /* Base styles */
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFF;
+  color: #434455; /* Головний текстовий колір */
+  background-color: #FFFFFF; /* Фон сайту */
 }
 
 /* Container */
@@ -23,21 +23,21 @@ body {
 
 /* Header */
 .header {
-  background-color: #2E2F42;
+  background-color: #2E2F42; /* Тло хедера */
   padding: 20px 0;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #4D5AE5;
+  color: #4D5AE5; /* Колір "Web" */
   text-transform: uppercase;
 }
 
 .header-logo-studio {
-  color: #FFF;
+  color: #FFFFFF; /* Колір "Studio" */
 }
 
 .nav-list {
@@ -49,20 +49,20 @@ body {
 .nav-link {
   font-size: 16px;
   font-weight: 500;
-  color: #FFF;
+  color: #FFFFFF; /* Колір тексту в навігації */
   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404BBF;
+  color: #404BBF; /* Колір при ховері та фокусі */
 }
 
 /* Hero Section */
 .solutions {
   text-align: center;
-  background-color: #2E2F42;
-  color: #FFF;
+  background-color: #2E2F42; /* Тло секції */
+  color: #FFFFFF; /* Текст секції */
   padding: 60px 0;
 }
 
@@ -70,12 +70,13 @@ body {
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #FFFFFF; /* Білий текст заголовка */
 }
 
 .solutions-button {
   padding: 10px 20px;
-  background-color: #4D5AE5;
-  color: #FFF;
+  background-color: #4D5AE5; /* Фон кнопки */
+  color: #FFFFFF; /* Білий текст кнопки */
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -83,12 +84,12 @@ body {
 
 .solutions-button:hover,
 .solutions-button:focus {
-  background-color: #404BBF;
+  background-color: #404BBF; /* Трохи темніший фон кнопки */
 }
 
 /* Portfolio */
 .portfolio {
-  background-color: #F4F4FD;
+  background-color: #F4F4FD; /* Світло-сірий фон секції */
   padding: 60px 0;
 }
 
@@ -97,6 +98,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
+  color: #2E2F42; /* Темний текст */
 }
 
 .portfolio-list {
@@ -109,19 +111,19 @@ body {
 .portfolio-item-title {
   font-size: 20px;
   font-weight: 500;
-  color: #2E2F42;
+  color: #2E2F42; /* Темний текст */
 }
 
 .portfolio-item-description {
   font-size: 16px;
   font-weight: 400;
-  color: #434455;
+  color: #434455; /* Темно-сірий текст опису */
 }
 
 /* Footer */
 .footer {
-  background-color: #2E2F42;
-  color: #FFF;
+  background-color: #2E2F42; /* Тло футера */
+  color: #FFFFFF; /* Білий текст */
   text-align: center;
   padding: 40px 0;
 }
@@ -130,17 +132,17 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #4D5AE5;
+  color: #4D5AE5; /* Колір "Web" у логотипі */
   text-transform: uppercase;
 }
 
 .footer-logo-studio {
-  color: #FFF;
+  color: #FFFFFF; /* Білий текст "Studio" */
 }
 
 .footer-text {
   font-size: 16px;
   font-weight: 400;
-  color: #FFF;
+  color: #FFFFFF; /* Білий текст */
   margin-top: 20px;
 }
