@@ -149,4 +149,46 @@ body {
 
 .portfolio-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  list-style: none;
+}
+
+.portfolio-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2E2F42;
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+}
+
+/* Footer */
+.footer {
+  background-color: #2E2F42;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4D5AE5;
+  text-transform: uppercase;
+}
+
+.footer-logo-studio {
+  color: #FFFFFF;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
