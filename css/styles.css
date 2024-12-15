@@ -1,12 +1,14 @@
 
+/* Reset styles */
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
-
 
 body {
   font-family: "Roboto", sans-serif;
@@ -17,18 +19,14 @@ body {
   line-height: 1.5;
 }
 
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* Header */
 .header {
   background-color: #FFFFFF;
-  padding: 20px 0;
-  color: #2E2F42;
 }
 
 .header-logo {
@@ -36,9 +34,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #4D5AE5;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  line-height: 1.17;
 }
 
 .header-logo-studio {
@@ -46,60 +44,55 @@ body {
 }
 
 .nav-list {
-  list-style: none;
   display: flex;
-  gap: 20px;
 }
 
 .nav-link {
   font-size: 16px;
   font-weight: 500;
   color: #2E2F42;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #4D5AE5;
+  color: #404BBF;
 }
 
 .contact-link {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
   color: #434455;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #4D5AE5;
+  color: #404BBF;
 }
 
 /* Hero Section */
 .solutions {
-  text-align: center;
   background-color: #2E2F42;
-  color: #FFFFFF;
-  padding: 60px 0;
 }
 
 .solutions-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
   color: #FFFFFF;
-  letter-spacing: 0.02em;
 }
 
 .solutions-button {
-  padding: 10px 20px;
   background-color: #4D5AE5;
-  color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  color: #FFFFFF;
   letter-spacing: 0.04em;
-  border: none;
   cursor: pointer;
 }
 
@@ -107,84 +100,46 @@ body {
 .solutions-button:focus {
   background-color: #404BBF;
 }
+
 /* Advantages Section */
-
-.advantages {
-  padding: 120px 0;
-}
-
-.advantages-list {
-  display: flex;
-  gap: 24px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.advantages-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .advantages-title {
-  color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  color: #2E2F42;
 }
 
 .advantages-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Our Team */
 .our-team {
   background-color: #F4F4FD;
-  padding: 120px 0;
 }
 
 .our-team-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
   text-align: center;
-  margin-bottom: 72px;
   color: #2E2F42;
 }
 
 .team-list {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.team-item {
-  text-align: center;
-  width: 264px;
-  height: 380px;
-  background-color: #FFFFFF;
-  border-radius: 4px;
-  padding: 0 0 32px 0;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-              0 1px 1px 0 rgba(46, 47, 66, 0.16),
-              0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.team-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
+  margin: 0;
+  padding: 0;
 }
 
 .team-name {
   font-size: 20px;
   font-weight: 500;
   color: #2E2F42;
-  margin: 20px 0 10px;
 }
 
 .team-role {
@@ -194,44 +149,19 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
-  background-color: #F4F4FD;
-  padding: 60px 0;
-}
-
 .portfolio-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
   text-align: center;
-  margin-bottom: 40px;
   color: #2E2F42;
-}
-
-.portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  list-style: none;
-}
-
-.portfolio-item-title {
-  font-size: 20px;
-  font-weight: 500;
-  color: #2E2F42;
-}
-
-.portfolio-item-description {
-  font-size: 16px;
-  font-weight: 400;
-  color: #434455;
 }
 
 /* Footer */
 .footer {
   background-color: #2E2F42;
-  color: #FFFFFF; 
+  color: #FFFFFF;
   text-align: center;
-  padding: 40px 0;
 }
 
 .footer-logo {
@@ -244,12 +174,13 @@ body {
 }
 
 .footer-logo-studio {
-  color: #FFFFFF; 
+  color: #FFFFFF;
 }
 
 .footer-text {
   font-size: 16px;
   font-weight: 400;
-  color: #FFFFFF;
-  margin-top: 20px;
+  color: #F4F4FD;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
