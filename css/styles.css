@@ -10,8 +10,8 @@ a {
 /* Base styles */
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455; /* Головний текстовий колір */
-  background-color: #FFFFFF; /* Фон сайту */
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 /* Container */
@@ -23,7 +23,7 @@ body {
 
 /* Header */
 .header {
-  background-color: #2E2F42; /* Тло хедера */
+  background-color: #2E2F42;
   padding: 20px 0;
   color: #FFFFFF;
 }
@@ -32,12 +32,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #4D5AE5; /* Колір "Web" */
+  color: #4D5AE5;
   text-transform: uppercase;
 }
 
 .header-logo-studio {
-  color: #FFFFFF; /* Колір "Studio" */
+  color: #FFFFFF;
 }
 
 .nav-list {
@@ -49,20 +49,19 @@ body {
 .nav-link {
   font-size: 16px;
   font-weight: 500;
-  color: #FFFFFF; /* Колір тексту в навігації */
-  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404BBF; /* Колір при ховері та фокусі */
+  color: #404BBF;
 }
 
 /* Hero Section */
 .solutions {
   text-align: center;
-  background-color: #2E2F42; /* Тло секції */
-  color: #FFFFFF; /* Текст секції */
+  background-color: #2E2F42;
+  color: #FFFFFF;
   padding: 60px 0;
 }
 
@@ -70,13 +69,12 @@ body {
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #FFFFFF; /* Білий текст заголовка */
 }
 
 .solutions-button {
   padding: 10px 20px;
-  background-color: #4D5AE5; /* Фон кнопки */
-  color: #FFFFFF; /* Білий текст кнопки */
+  background-color: #4D5AE5;
+  color: #FFFFFF;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -84,12 +82,61 @@ body {
 
 .solutions-button:hover,
 .solutions-button:focus {
-  background-color: #404BBF; /* Трохи темніший фон кнопки */
+  background-color: #404BBF;
+}
+
+/* Our Team */
+.our-team {
+  background-color: #F4F4FD;
+  padding: 60px 0;
+}
+
+.our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.team-item {
+  text-align: center;
+  width: 264px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2E2F42;
+  margin: 20px 0 10px;
+}
+
+.team-role {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
 }
 
 /* Portfolio */
 .portfolio {
-  background-color: #F4F4FD; /* Світло-сірий фон секції */
+  background-color: #F4F4FD;
   padding: 60px 0;
 }
 
@@ -98,51 +145,8 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
-  color: #2E2F42; /* Темний текст */
 }
 
 .portfolio-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  list-style: none;
-}
-
-.portfolio-item-title {
-  font-size: 20px;
-  font-weight: 500;
-  color: #2E2F42; /* Темний текст */
-}
-
-.portfolio-item-description {
-  font-size: 16px;
-  font-weight: 400;
-  color: #434455; /* Темно-сірий текст опису */
-}
-
-/* Footer */
-.footer {
-  background-color: #2E2F42; /* Тло футера */
-  color: #FFFFFF; /* Білий текст */
-  text-align: center;
-  padding: 40px 0;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #4D5AE5; /* Колір "Web" у логотипі */
-  text-transform: uppercase;
-}
-
-.footer-logo-studio {
-  color: #FFFFFF; /* Білий текст "Studio" */
-}
-
-.footer-text {
-  font-size: 16px;
-  font-weight: 400;
-  color: #FFFFFF; /* Білий текст */
-  margin-top: 20px;
-}
+  grid-template-columns: repeat(auto-fit, minmax(300
